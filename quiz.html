@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js"></script>
+</head>
+
+<body>
+    <div id="backGround">
+        <header>
+            <h1>Simple Quiz</h1>
+            <p>Test Your Knowledge</p>
+        </header>
+        <section>
+            <div id="showAnswers"></div>
+            <form name="quizQuestions" onsubmit="return sendAnswers()">
+                <h3>1. When was Trinidad re-discovered</h3>
+                <input type="radio" name="q1" value="a" id="q1a">a. &lt;1976&gt;<br>
+                <input type="radio" name="q1" value="b" id="q1b">b. &lt;1498&gt;<br>
+                <input type="radio" name="q1" value="c" id="q1c">c. &lt;1962&gt;<br>
+                <input type="radio" name="q1" value="d" id="q1d">d. &lt;1492&gt;<br>
+
+                <h3>2. Who wrote Stranger Things</h3>
+                <input type="radio" name="q2" value="a" id="q2a">a. &lt;The Buff Brothers&gt;<br>
+                <input type="radio" name="q2" value="b" id="q2b">b. &lt;The Duffer Brothers&gt;<br>
+                <input type="radio" name="q2" value="c" id="q2c">c. &lt;The Duff Beer Company&gt;<br>
+                <input type="radio" name="q2" value="d" id="q2d">d. &lt;The Duff&gt;<br>
+
+                <h3>3. Where is Stranger Things set</h3>
+                <input type="radio" name="q3" value="a" id="q3a">a. &lt;Mike Pence's Backyard&gt;<br>
+                <input type="radio" name="q3" value="b" id="q3b">b. &lt;Hawkins Indiana&gt;<br>
+                <input type="radio" name="q3" value="c" id="q3c">c. &lt;Idaho&gt;<br>
+                <input type="radio" name="q3" value="d" id="q3d">d. &lt;Indian Creek&gt;<br>
+                <br><br>
+                <input type="submit" value="Submit Answers">
+            </form>
+        </section>
+    </div>
+</body>
+<footer>
+    <p>Copyright &copy 2022. All Rights Reserved</p>
+</footer>
+
+</html>

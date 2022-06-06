@@ -1,0 +1,61 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+body{
+    background-color: rgb(240, 167, 9);
+}
+
+#backGround{
+    width: 75%;
+    background-color: rgb(18, 141, 223); 
+    margin: 20px auto;
+    overflow: auto;
+    padding: 25px;
+}
+
+header{
+    text-align: center;
+    border-bottom: #fff dashed 1px;
+}
+
+header h1{
+    margin:0;
+    padding: 0;
+}
+
+header p{
+    padding: 0;
+    margin-top: 5px;
+    color: #000;
+}
+
+section{
+    min-height: 400px;
+}
+
+footer{
+     text-align: center;
+}
+
+input[type='submit']{
+    background-color: rgb(240, 167, 9);
+    border: 0;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#showAnswers h3{
+    background-color: rgb(240, 167, 9);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#showAnswers span{
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px 0;
+}
